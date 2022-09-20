@@ -112,7 +112,7 @@
 			tri.newRange(tri.sag, "sag", -0.25, 0.03125, 0.25, 0, tri.updateCSS);
 			tri.newRange(tri.fov, "field of view", 7, 1, 13, 10, tri.updateBody);
 			tri.newCheckbox(tri.flo, "force overflow", tri.updateCSS);
-			tri.flo.setAttribute("checked", "");
+			tri.flo.setAttribute("checked", "true");
 			tri.newCheckbox(tri.off, "flatten layers", tri.updateCSS);
 			tri.newCheckbox(tri.non, "flatten everything", tri.updateCSS);
 			tri.newButton(tri.end, "Quit", tri.quit);
